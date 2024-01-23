@@ -32,7 +32,7 @@ const Header = () => {
       <S.HeaderNavContainer>
         <Link to="/">지도</Link>
         <Link to="community">커뮤니티</Link>
-        <Link to="mypage">마이페이지</Link>
+        <Link to="mypage/like">마이페이지</Link>
         {isLogin ? <div>로그아웃</div> : <div>로그인</div>}
       </S.HeaderNavContainer>
     </S.HeaderContainer>
